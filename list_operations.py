@@ -62,7 +62,7 @@ def first_three(input_list):
 
     """
 
-    return input_list[0:4]
+    return input_list[0:3]
 
 
 def last_five(input_list):
@@ -185,6 +185,8 @@ def delete_third_and_seventh(input_list):
     True
 
     """
+    del input_list[6]
+    del input_list[2]
 
     pass
 
@@ -202,6 +204,7 @@ def delete_middle(input_list):
     True
 
     """
+    input_list[2:-2] = []
 
     pass
 
